@@ -14,7 +14,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Bull.MOD_ID);
 
     public static final RegistryObject<Item> BULL_SPAWN_EGG = ITEMS.register("bull_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntities.BULL, 0x000000, 0xffffff,
+            () -> new ForgeSpawnEggItem(ModEntities.BULL, 0x00ff00, 0xff0000,
                     new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
